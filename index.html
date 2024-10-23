@@ -15,16 +15,37 @@
             font-family: "Roboto", sans-serif;
             font-weight: 400;
             font-style: normal;
+            background: #fafafa;
         }
 
-        .col-sm-10 {
-            border: 1px solid #343a40;
+        .accordion {
+            margin: 0 auto;
+            -webkit-box-shadow: 0px 0px 13px -7px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 0px 13px -7px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 13px -7px rgba(0, 0, 0, 0.25);
+            background: #fff;
+            overflow: hidden;
+        }
+
+        .accordion-button {
+            width: 100%;
+            /*font-weight: normal;*/
+            color: rgba(0, 0, 0, 0.8);
+            /*border-radius: 0 !important;*/
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            /*border-bottom: 1px solid rgba(0, 0, 0, 0.05);*/
+            padding-top: 1.5rem !important;
+            padding-bottom: 1.5rem !important;
         }
 
         .accordion-button:not(.collapsed) {
-            color: #0a53e3;
-            background-color: #ffffff;
+            color: #fff !important;
+            background-color: #42dca3;
             font-weight: 700;
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
         }
     </style>
 </head>
@@ -37,7 +58,7 @@
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading6">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#flush-collapse6" aria-expanded="false"
                                 aria-controls="flush-collapseThree">
                             Oct 23, 2024 - Intro To Git and Github
