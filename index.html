@@ -77,7 +77,6 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/xaXVoEWZWTRcxVP8BoD_53sRrweKC5EiDe1_LAoIF__IcbdMHQzC8kYN_MEc79j5.rjCce6k4E4zBeP03"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">&C2PtU37</p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +95,6 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/Oet5iEYldSZtNxfbmQpzvTwehA41D0d-chsLnpXlB3EO0vFcOfPBQEpldyRYJGg.NxkQDRJqN-ggRSW6"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">WFNae4?m</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +114,7 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/ho6LShqIFlJ5ukchKg623yVlNQc9a0sKV6zQazMBpvUKmBxDl7FmR2BvpmXKzRAh.QxJIuGI6sX52-_SQ"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">0+9C+%.B</p>
+
                         </div>
                     </div>
                 </div>
@@ -136,7 +134,7 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/fA9p2qjUrHevrseQ_MOfTa_RLNyfShcslHdFy7rbiV1x4vnp2H9wzyE9LkuIAR2w.pYfPIkJqyeevriIb"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">Lfk$f&m4</p>
+
                         </div>
                     </div>
                 </div>
@@ -156,7 +154,7 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/RtlM1HMOkMqK67QzGwOwbp-RjUzKLXhgVO-LZl_bVCSkCKPFg3svySYJyROlj0DQ.2jD6UW8_snoSyuSC"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">5^NFjUuy</p>
+
                         </div>
                     </div>
                 </div>
@@ -176,7 +174,6 @@
                             <a class="btn btn-outline-success"
                                href="https://us02web.zoom.us/rec/share/BCKzhaS_oKR2W2IhIbpmzC5_piXDjM9FGHBrtwuScFzHi6OJhkFKhl6E_NmMXSEi.dlEAkwDWUUoOkehm"
                                target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50">57MJ%e3m</p>
                         </div>
                     </div>
                 </div>
@@ -193,7 +190,6 @@
                         <div class="accordion-body">
                             <p></p>
                             <a class="btn btn-outline-success" href="" target="_blank">Video Link</a>
-                            <p class="mt-2 text-black-50"></p>
                         </div>
                     </div>
                 </div>-->
@@ -201,6 +197,20 @@
         </div>
     </div>
 </div>
+
+
+  <script>
+    function copyContent (el) {
+      console.log()
+      let text= el.closest('.accordion-body').querySelector('.copy').innerHTML
+      try {
+        navigator.clipboard.writeText(text);
+        console.log('Content copied to clipboard');
+      } catch (err) {
+        console.error('Failed to copy: ', err);
+      }
+    }
+  </script>
 
 
 </body>
